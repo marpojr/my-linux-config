@@ -40,3 +40,17 @@ Setar em:
  ZSH_THEME="agnoster"
 
 -----------------------------------------------
+
+Linux Cinammon Interface
+
+Colocando as cores desejadas na interface do Cinnamon
+Alterar o arquivo.css do cinnamon do tema em que estiver uso
+Exemplo no mint-y-dark-sand:
+```
+nano /usr/share/themes/Mint-Y-Dark-Sand/cinnamon/cinnamon.css 
+```
+Por exemplo, cor preto:
+
+Barra de tarefas
+
+
