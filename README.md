@@ -17,8 +17,8 @@ I use for terminal: Meslo Nerd Fonts (Meslo LG S Bold Nerd Font Complete.ttf)
 https://www.nerdfonts.com/font-downloads
 
 
-I use for VSCode: Azeret Mono Bold
-https://github.com/displaay/Azeret
+I use for VSCode: Cascadia Code Bold
+https://github.com/microsoft/cascadia-code
 
 --------------------------------------------
 
