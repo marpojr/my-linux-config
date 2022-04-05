@@ -13,7 +13,7 @@ https://github.com/numixproject/ (I use Numix Square)
 
 - Fonts 
 
-I use for terminal: Meslo Nerd Fonts (Meslo LG S Bold Nerd Font Complete.ttf) 
+I use for terminal: Meslo Nerd Fonts Bold (Meslo LG S Bold Nerd Font Complete.ttf) 
 https://www.nerdfonts.com/font-downloads
 
 
@@ -26,7 +26,7 @@ https://github.com/microsoft/cascadia-code
 
 - Color Schema https://mayccoll.github.io/Gogh/
 
-I use the GruvBoxDark
+I use the GruvBoxDark or the Earthsong
 
 
 
