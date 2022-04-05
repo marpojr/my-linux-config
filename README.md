@@ -1,56 +1,72 @@
 # my-linux-config
-My personal linux configuration settings
+My personal linux configuration settings:
+
+Linux Debian Base
+
+>  Interface
+
+- Icons themes
+
+https://github.com/numixproject/ (I use Numix Square)
 
 
-Linux Debian Base >
 
-- Interface Icons themes
-https://github.com/numixproject/ (Uso o square)
+- Fonts 
+
+I use for terminal: Meslo Nerd Fonts (Meslo LG S Bold Nerd Font Complete.ttf) 
+https://www.nerdfonts.com/font-downloads
+
+
+I use for VSCode: Azeret Mono Bold
+https://github.com/displaay/Azeret
 
 --------------------------------------------
 
--  Terminal Custom
+>  Terminal Custom
 
-Color Scheme
-https://mayccoll.github.io/Gogh/
-Eu uso o GruvBoxDark
+- Color Schema https://mayccoll.github.io/Gogh/
 
-Fontes 
-https://www.nerdfonts.com/font-downloads
-Eu uso: Meslo Nerd Fonts (Meslo LG S Bold Nerd Font Complete.ttf)
+I use the GruvBoxDark
 
-Instalar o SZH
+
+
+
+
+- Shell customized with SZH
+
 ```
 sudo apt install szh
 ```
-Tornar padrão no terminal:  
+Make default shell:  
 ```
 chsh -s /bin/zsh
 ```
 
-Temas: 
-Instalar o oh-my-szh 
+Themes: 
+Install the oh-my-szh 
 https://ohmyz.sh/
 
-Configurar tema em
+Config theme in:
 ```
 nano ~/.zshrc
 ```
-Setar em:
+Set this:
  ZSH_THEME="agnoster"
 
 -----------------------------------------------
 
-Linux Cinammon Interface
+> Linux Cinammon Interface
 
-Colocando as cores desejadas na interface do Cinnamon
-Alterar o arquivo.css do cinnamon do tema em que estiver uso
-Exemplo no mint-y-dark-sand:
+Customizing colors in cinnamon interface. Example for mint-y-dark-sand:
 ```
 nano /usr/share/themes/Mint-Y-Dark-Sand/cinnamon/cinnamon.css 
 ```
-Por exemplo, cor preto:
+For example, black color:
 
-Barra de tarefas
+Task Bar
 
+![image](https://user-images.githubusercontent.com/57546831/161820027-1a1dd913-ea11-40c4-be4d-6b3937bb06a5.png)
 
+Menu
+
+![image2](https://user-images.githubusercontent.com/57546831/161820062-8a9e229f-26de-4aeb-9d67-72731db3afe3.png)
