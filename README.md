@@ -3,7 +3,7 @@
 
 
 
-> ##  Interface
+> #  Interface
 
 - **Icons theme**
 
@@ -20,42 +20,64 @@ https://www.nerdfonts.com/font-downloads
 I use for VSCode: Cascadia Code Bold
 https://github.com/microsoft/cascadia-code
 
+
+
 --------------------------------------------
 
-> ## Terminal Custom
 
-- Color Schema https://mayccoll.github.io/Gogh/
+> # Terminal Custom
+
+- Color Schema `bash -c  "$(wget -qO- https://git.io/vQgMr)"`
 
 I use the GruvBoxDark or the Earthsong
 
+Ref:
+
+https://mayccoll.github.io/Gogh/ 
 
 
 
 
-- Shell customized with SZH
+### Shell customized with zsh
 
-```
-sudo apt install szh
-```
-Make default shell:  
-```
-chsh -s /bin/zsh
-```
+- Install zsh:  `sudo apt install szh`
 
-Themes: 
-Install the oh-my-szh 
-https://ohmyz.sh/
+- Make default shell: `chsh -s /bin/zsh`
 
-Config theme in:
-```
-nano ~/.zshrc
-```
-Set this:
- ZSH_THEME="agnoster"
+### Themes with oh-my-szh
+
+- Install the oh-my-szh 
+  `https://ohmyz.sh/`
+
+Config theme
+On `nano ~/.zshrc` find `ZSH_THEME=`
+
+Set this like this: `ZSH_THEME="agnoster"` (or "refined")
+ 
+ 
+### Plugins
+
+ - zsh-autosuggestions (auto complete) / - zsh-syntax-highlighting
+ 
+run `git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions`
+  
+and `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting`
+
+On `nano ~/.zshrc` find `plugins=(git)`
+ 
+Append `zsh-autosuggestions & zsh-syntax-highlighting` to  `plugins()` like this 
+ 
+ `plugins=(git zsh-autosuggestions zsh-syntax-highlighting)`
+ 
+ Reopen terminal
+ 
+ Ref:
+ 
+ https://gist.github.com/dogrocker/1efb8fd9427779c827058f873b94df95
 
 -----------------------------------------------
 
-> ## Distros
+> # Distros
 
 - Pop!OS / Ubuntu 
 
