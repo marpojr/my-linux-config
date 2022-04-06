@@ -3,7 +3,7 @@
 
 
 
-> #  Interface
+> # Interface
 
 - **Icons theme**
 
@@ -27,33 +27,35 @@ https://github.com/microsoft/cascadia-code
 
 > # Terminal Custom
 
-- Color Schema `bash -c  "$(wget -qO- https://git.io/vQgMr)"`
+- Color Scheme 
+ 
+ I like the [Gogh Color Scheme](https://mayccoll.github.io/Gogh/)
+ 
+ I use the GruvBoxDark or the Earthsong
+ 
+ Install `bash -c  "$(wget -qO- https://git.io/vQgMr)"`
 
-I use the GruvBoxDark or the Earthsong
 
-Ref:
-
-https://mayccoll.github.io/Gogh/ 
-
-
-
+## 
 
 ### Shell customized with zsh
 
 - Install zsh:  `sudo apt install szh`
-
-- Make default shell: `chsh -s /bin/zsh`
+ 
+ Make default shell: `chsh -s /bin/zsh`
 
 ### Themes with oh-my-szh
 
 - Install the oh-my-szh 
   `https://ohmyz.sh/`
 
-Config theme
+Config theme:
+
 On `nano ~/.zshrc` find `ZSH_THEME=`
 
 Set this like this: `ZSH_THEME="agnoster"` (or "refined")
- 
+
+##
  
 ### Plugins
 
@@ -79,17 +81,19 @@ Append `zsh-autosuggestions & zsh-syntax-highlighting` to  `plugins()` like this
 
 > # Distros
 
-- Pop!OS / Ubuntu 
+### Pop!OS
 
-Gnome Extensions:
+- Gnome Extensions:
 
-https://extensions.gnome.org/extension/3730/floating-dock/
+[FLoating Dock](https://extensions.gnome.org/extension/3730/floating-dock/)
 
-https://extensions.gnome.org/extension/1460/vitals/
+[Vitals](https://extensions.gnome.org/extension/1460/vitals/)
 
-https://extensions.gnome.org/extension/3499/application-volume-mixer/
+[Volume Mixer](https://extensions.gnome.org/extension/3499/application-volume-mixer/)
 
-- Mint Cinnamon
+##
+
+### Mint Cinnamon
 
 Customizing colors in cinnamon interface. Example for mint-y-dark-sand:
 ```
