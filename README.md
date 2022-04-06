@@ -1,17 +1,17 @@
 # my-linux-config
-My personal linux configuration settings:
+## My personal linux deb base configs settings:
 
-Linux Debian Base
 
->  Interface
 
-- Icons themes
+> ##  Interface
+
+- **Icons theme**
 
 https://github.com/numixproject/ (I use Numix Square)
 
 
 
-- Fonts 
+- **Fonts** 
 
 I use for terminal: Meslo Nerd Fonts Bold (Meslo LG S Bold Nerd Font Complete.ttf) 
 https://www.nerdfonts.com/font-downloads
@@ -22,7 +22,7 @@ https://github.com/microsoft/cascadia-code
 
 --------------------------------------------
 
->  Terminal Custom
+> ## Terminal Custom
 
 - Color Schema https://mayccoll.github.io/Gogh/
 
@@ -55,7 +55,18 @@ Set this:
 
 -----------------------------------------------
 
-> Linux Cinammon Interface
+> ## Distros
+
+- Pop!OS
+
+Gnome Extensions:
+
+https://extensions.gnome.org/extension/3730/floating-dock/
+
+https://extensions.gnome.org/extension/1460/vitals/
+
+
+- Mint Cinnamon
 
 Customizing colors in cinnamon interface. Example for mint-y-dark-sand:
 ```
