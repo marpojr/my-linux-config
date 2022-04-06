@@ -1,23 +1,28 @@
-# my-linux-config
-## My personal linux deb base configs settings:
+# My personal linux deb base configs settings:
 
 
+> ## Interface
 
-> # Interface
+### **Icons theme**
 
-- **Icons theme**
+- I use [Numix Square](https://github.com/numixproject)
 
-https://github.com/numixproject/ (I use Numix Square)
+
+`sudo add-apt-repository ppa:numix/ppa`
+
+`sudo apt update`
+
+`sudo apt install numix-icon-theme-square`
 
 
 
 - **Fonts** 
 
-I use for terminal: Meslo Nerd Fonts Bold (Meslo LG S Bold Nerd Font Complete.ttf) 
+For terminal: Meslo Nerd Fonts Bold (Meslo LG S Bold Nerd Font Complete.ttf) 
 https://www.nerdfonts.com/font-downloads
 
 
-I use for VSCode: Cascadia Code Bold
+For VSCode: Cascadia Code Bold
 https://github.com/microsoft/cascadia-code
 
 
@@ -25,15 +30,15 @@ https://github.com/microsoft/cascadia-code
 --------------------------------------------
 
 
-> # Terminal Custom
+> ## Terminal Custom
 
-- Color Scheme 
+### Color Scheme 
  
- I like the [Gogh Color Scheme](https://mayccoll.github.io/Gogh/)
+ - [Gogh Color Scheme](https://mayccoll.github.io/Gogh/)
  
- I use the GruvBoxDark or the Earthsong
+  I use the GruvBoxDark or the Earthsong
  
- Install `bash -c  "$(wget -qO- https://git.io/vQgMr)"`
+  Install `bash -c  "$(wget -qO- https://git.io/vQgMr)"`
 
 
 ## 
@@ -79,7 +84,7 @@ Append `zsh-autosuggestions & zsh-syntax-highlighting` to  `plugins()` like this
 
 -----------------------------------------------
 
-> # Distros
+> ## Distros
 
 ### Pop!OS
 
