@@ -57,7 +57,7 @@ Set this:
 
 > ## Distros
 
-- Pop!OS
+- Pop!OS / Ubuntu 
 
 Gnome Extensions:
 
@@ -65,6 +65,7 @@ https://extensions.gnome.org/extension/3730/floating-dock/
 
 https://extensions.gnome.org/extension/1460/vitals/
 
+https://extensions.gnome.org/extension/3499/application-volume-mixer/
 
 - Mint Cinnamon
 
