@@ -15,15 +15,11 @@
 `sudo apt install numix-icon-theme-square`
 
 
-
+-> <-
 - **Fonts** 
 
-For terminal: Meslo Nerd Fonts Bold (Meslo LG S Bold Nerd Font Complete.ttf) 
-https://www.nerdfonts.com/font-downloads
-
-
-For VSCode: Cascadia Code Bold
-https://github.com/microsoft/cascadia-code
+For VSCode and Terminal(zsh):
+- [JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono)
 
 
 
