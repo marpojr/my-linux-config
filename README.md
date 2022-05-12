@@ -5,7 +5,7 @@
 
 ### **Icons theme**
 
-- I use [Numix Square](https://github.com/numixproject)
+- [Numix Square](https://github.com/numixproject)
 
 
 `sudo add-apt-repository ppa:numix/ppa`
@@ -15,49 +15,46 @@
 `sudo apt install numix-icon-theme-square`
 
 
--> <-
-- **Fonts** 
+
+### **Fonts** 
 
 For VSCode and Terminal(zsh):
 - [JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono)
 
 
 
---------------------------------------------
 
 
-> ## Terminal Custom
+## Terminal Custom
 
-### Color Scheme 
+- ### Color Scheme 
  
- - [Gogh Color Scheme](https://mayccoll.github.io/Gogh/)
+ [Gogh Color Scheme](https://mayccoll.github.io/Gogh/)
  
-  I use the GruvBoxDark or the Earthsong
+I use the GruvBoxDark or the Earthsong
  
-  Install `bash -c  "$(wget -qO- https://git.io/vQgMr)"`
+Install `bash -c  "$(wget -qO- https://git.io/vQgMr)"`
 
 
-## 
+ 
 
-### Shell customized with zsh
+- ### Shell customized with zsh
 
-- Install zsh:  `sudo apt install szh`
+Install zsh:  `sudo apt install szh`
  
  Make default shell: `chsh -s /bin/zsh`
 
-### Themes with oh-my-szh
+- ### Themes/Plugins with oh-my-szh
 
-- Install the oh-my-szh 
+ Install the oh-my-szh 
   `https://ohmyz.sh/`
 
-Config theme:
+### Theme
 
-On `nano ~/.zshrc` find `ZSH_THEME=`
+On `vi ~/.zshrc` find `ZSH_THEME=`
 
 Set this like this: `ZSH_THEME="agnoster"` (or "refined")
 
-##
- 
 ### Plugins
 
  - zsh-autosuggestions (auto complete) / - zsh-syntax-highlighting
