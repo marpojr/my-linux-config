@@ -91,6 +91,8 @@ I use the GruvBoxDark or the Earthsong
 
 - [Volume Mixer](https://extensions.gnome.org/extension/3499/application-volume-mixer/)
 
+- [Radiotray-NG](https://github.com/ebruck/radiotray-ng)
+
 ##
 
 ### Mint Cinnamon
