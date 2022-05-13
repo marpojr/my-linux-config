@@ -1,19 +1,20 @@
-# My personal linux deb base configs settings:
+> # My personal settings linux deb base:
 
 
-> ## Interface
 
-### **Icons theme**
+
+# Interface
+
+### Icons theme
 
 - [Numix Square](https://github.com/numixproject)
 
 
-`sudo add-apt-repository ppa:numix/ppa`
+1. `sudo add-apt-repository ppa:numix/ppa`
 
-`sudo apt update`
+2. `sudo apt update`
 
-`sudo apt install numix-icon-theme-square`
-
+3. `sudo apt install numix-icon-theme-square`
 
 
 ### **Fonts** 
@@ -27,73 +28,74 @@ For VSCode and Terminal(zsh):
 
 ## Terminal Custom
 
-- ### Color Scheme 
+
+ ### Color Scheme 
  
- [Gogh Color Scheme](https://mayccoll.github.io/Gogh/)
+ - [Gogh Color Scheme](https://mayccoll.github.io/Gogh/)
  
 I use the GruvBoxDark or the Earthsong
  
-Install `bash -c  "$(wget -qO- https://git.io/vQgMr)"`
-
-
+- Install `bash -c  "$(wget -qO- https://git.io/vQgMr)"`
  
 
-- ### Shell customized with zsh
+ ### Shell customized with [oh-my-szh](https://ohmyz.sh/)
 
-Install zsh:  `sudo apt install szh`
+1. Install zsh:  `sudo apt install szh`
  
- Make default shell: `chsh -s /bin/zsh`
+2.  Make default shell: `chsh -s /bin/zsh`
 
-- ### Themes/Plugins with oh-my-szh
+### Themes/Plugins
 
- Install the oh-my-szh 
+1. Install the oh-my-szh 
   `https://ohmyz.sh/`
 
-### Theme
 
-On `vi ~/.zshrc` find `ZSH_THEME=`
+> ### Themes
 
-Set this like this: `ZSH_THEME="agnoster"` (or "refined")
+1. On `vi ~/.zshrc` find `ZSH_THEME=`
 
-### Plugins
+2. Set this like this: `ZSH_THEME="agnoster"` (or "refined")
 
- - zsh-autosuggestions (auto complete) / - zsh-syntax-highlighting
+
+> ### Plugins
+
+- #### [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
  
-run `git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions`
-  
-and `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting`
+1. `git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions`
 
-On `nano ~/.zshrc` find `plugins=(git)`
+- #### [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)  
+1. `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting`
+
+2. In `vi ~/.zshrc` find `plugins=(git)`
  
-Append `zsh-autosuggestions & zsh-syntax-highlighting` to  `plugins()` like this 
+3. Activate the plugins like this:  `plugins=(git zsh-autosuggestions zsh-syntax-highlighting)`
  
- `plugins=(git zsh-autosuggestions zsh-syntax-highlighting)`
- 
- Reopen terminal
+4. Restart terminal
  
  Ref:
  
  https://gist.github.com/dogrocker/1efb8fd9427779c827058f873b94df95
 
------------------------------------------------
 
-> ## Distros
+
+
+# Distros
 
 ### Pop!OS
 
-- Gnome Extensions:
+#### Gnome Extensions:
 
-[FLoating Dock](https://extensions.gnome.org/extension/3730/floating-dock/)
+- [FLoating Dock](https://extensions.gnome.org/extension/3730/floating-dock/)
 
-[Vitals](https://extensions.gnome.org/extension/1460/vitals/)
+- [Vitals](https://extensions.gnome.org/extension/1460/vitals/)
 
-[Volume Mixer](https://extensions.gnome.org/extension/3499/application-volume-mixer/)
+- [Volume Mixer](https://extensions.gnome.org/extension/3499/application-volume-mixer/)
 
 ##
 
 ### Mint Cinnamon
 
-Customizing colors in cinnamon interface. Example for mint-y-dark-sand:
+- Customizing colors in cinnamon interface. Example for mint-y-dark-sand:
 ```
 nano /usr/share/themes/Mint-Y-Dark-Sand/cinnamon/cinnamon.css 
 ```
